@@ -306,3 +306,34 @@ li.visu-s05 {
 .visu-btn a:hover span {
   background-image: url(/img/mvBtn_arrow_ov.png);
 }
+.visu-nav {
+  position: absolute;
+  left: -60px;
+  width: 20px;
+}
+.visu-nav li {
+  width: 30%;
+  opacity: 0.5;
+  height: 2px;
+  background-color: #fff;
+  text-indent: -9999px;
+}
+.visu-nav li + li {
+  margin-top: 19px;
+}
+.visu-nav li.Active {
+  width: 100%;
+  opacity: 1;
+}
+.visual .icon-scroll {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  animation: scrollAni 1s ease-in-out infinite;
+}
+.visual.Down .icon-scroll {
+  opacity: 1;
+  bottom: 40px;
+}
