@@ -230,9 +230,9 @@
   top: 0;
   background-repeat: no-repeat;
   background-size: cover;
-  transform: scale(1.1);
+  transform: scale(1.2);
   opacity: 0;
-  transition: all 0.3s;
+  transition: all 0.5s ease-out;
   text-indent: -9999px;
 }
 .visual-slider li.On {
@@ -312,11 +312,14 @@ li.visu-s05 {
   width: 20px;
 }
 .visu-nav li {
-  width: 30%;
+  width: 50%;
   opacity: 0.5;
-  height: 2px;
+  height: 8px;
   background-color: #fff;
   text-indent: -9999px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.5s;
 }
 .visu-nav li + li {
   margin-top: 19px;
