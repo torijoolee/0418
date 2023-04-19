@@ -8,7 +8,7 @@
   console.log(visuHeight);
 
   function setHeader() {
-    headerElem.classList.add("load");
+    headerElem.classList.add("Load");
   }
 
   window.addEventListener("load", setHeader);
@@ -17,9 +17,9 @@
     let scroll = window.scrollY;
 
     if (scroll >= visuHeight - headerHeight) {
-      headerElem.classList.add("down");
+      headerElem.classList.add("Down");
     } else {
-      headerElem.classList.remove("down");
+      headerElem.classList.remove("Down");
     }
   });
 })();
