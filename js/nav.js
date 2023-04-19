@@ -10,5 +10,11 @@
       bg.style.display = "none";
     }
   }
+
+  function closeMenu() {
+    headerElem.classList.remove("Active");
+    bg.style.display = "none";
+  }
   menuBar.addEventListener("click", handleMenu);
+  bg.addEventListener("click", closeMenu);
 })();
