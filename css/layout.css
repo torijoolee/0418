@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 /* header */
 .header {
   position: fixed;
@@ -21,11 +24,10 @@
   top: 0;
 }
 .header-inner {
-  width: 90vw;
-  max-width: 1440px;
+  max-width: 1540px;
   margin: 0 auto;
   display: flex;
-  z-index: 3;
+
   justify-content: space-between;
   border-bottom: 2px solid #fff;
 }
@@ -118,6 +120,7 @@
   bottom: 0;
   z-index: 2;
   padding: 80px 0;
+  /* min-width: 60%; */
   width: 60%;
   transition: right 0.5s cubic-bezier(0.42, 0, 0.52, 0.98);
   line-height: 1.4;
@@ -161,9 +164,9 @@
 }
 .all-menu > li > .depth-2 {
   margin-top: 45px;
-  /* width: 180px; */
+  width: 180px;
 }
-.all-menu > li > ul.depth-2 > a {
+.all-menu > li > .depth-2 > li > a {
   display: inline-block;
   font-size: 15px;
   font-weight: bold;
@@ -171,7 +174,7 @@
   color: #1a1a1a;
   transition: color 0.14s ease-in-out;
 }
-.all-menu > li > ul.depth-2 > li {
+.all-menu > li > .depth-2 > li {
   margin-bottom: 14px;
 }
 .all-menu > li > .depth-2 > li > .depth-3 > li > a {
@@ -332,7 +335,7 @@ li.visu-s05 {
   position: absolute;
   bottom: 10px;
   left: 50%;
-  opacity: 0;
+  /* opacity: 0; */
   transition: all 0.5s ease-in-out;
   animation: scrollAni 1s ease-in-out infinite;
 }
@@ -653,4 +656,7 @@ a.sec-btn {
 }
 .footer .footer-btn a {
   color: #9c9c9c;
+}
+.m-only {
+  display: none;
 }
