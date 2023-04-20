@@ -51,7 +51,7 @@
         visuNavElems[0].classList.add("Active");
       }
     });
-  }, 4000);
+  }, 5000);
 
   visuNavElems.forEach((nav) => {
     nav.addEventListener("click", showImg);
