@@ -33,7 +33,6 @@
   }
 
   let autoPlay = setInterval(function () {
-    console.log(current);
     current++;
     visuImgElems.forEach((elem) => {
       if (current < total) {

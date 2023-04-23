@@ -67,6 +67,7 @@
     border-bottom: 1px solid #dcdcdc;
     font-weight: bold;
     position: relative;
+    cursor: pointer;
   }
   .all-menu > li > span::before {
     content: "";
@@ -86,10 +87,12 @@
   }
   .all-menu > li > .depth-2 {
     width: auto;
-    /* display: none; */
+    max-height: 0;
+    overflow: hidden;
     background-color: #f8f8f8;
     margin: 0;
-    padding: 20px;
+    padding: 0 20px;
+    transition: all 0.5s;
   }
   .all-menu > li > .depth-2 > li > a {
     font-size: 24px;
