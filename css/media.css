@@ -101,6 +101,12 @@
     margin-bottom: 0;
     line-height: 42px;
   }
+  .all-menu > li > .depth-2 > li:nth-child(1) {
+    padding-top: 20px;
+  }
+  .all-menu > li > .depth-2 > li:last-child {
+    padding-bottom: 20px;
+  }
   .all-menu > li > .depth-2 > li > .depth-3 > li > a {
     font-size: 14px;
   }
