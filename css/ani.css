@@ -60,9 +60,22 @@
   bottom: -1px;
   width: 100%;
   height: 101%;
-  background-color: #fff;
+  background-color: #2e343c;
   transition: all 1s ease-out;
 }
 .ani.cover.moving:after {
   height: 0;
+}
+/* delay */
+.ani.delay02 {
+  transition-delay: 0.2s;
+}
+.ani.delay03 {
+  transition-delay: 0.3s;
+}
+.ani.delay04 {
+  transition-delay: 0.4s;
+}
+.ani.delay05 {
+  transition-delay: 0.5s;
 }
